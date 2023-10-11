@@ -15,7 +15,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   className="w-40 mx-auto mb-4"
-                  src="https://placehold.jp/300x200.png"
+                  src="300x200.png"
                 />
               </div>
             ))}
@@ -30,7 +30,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   className="w-80 mx-auto mb-4"
-                  src="https://placehold.jp/300x200.png"
+                  src="300x200.png"
                 />
               </div>
             ))}
@@ -46,7 +46,7 @@ export default function Home() {
                 width={300}
                 height={200}
                 className="w-30 mx-auto mb-4"
-                src="https://placehold.jp/300x200.png"
+                src="300x200.png"
               />
             </div>
           ))}

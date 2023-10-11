@@ -10,6 +10,7 @@ const nextConfig = {
   assetPrefix: branchName,
   basePath: branchName,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
