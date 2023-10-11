@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-const branchName = process.env.REPO_NAME ? "/" + process.env.REPO_NAME : "";
+const branchName = process.env.REPOSITORY_NAME
+  ? "/" + process.env.REPOSITORY_NAME
+  : "";
 
 const nextConfig = {
   reactStrictMode: true,
