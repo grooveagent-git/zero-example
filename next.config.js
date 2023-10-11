@@ -5,6 +5,7 @@ const branchName = process.env.REPOSITORY_NAME
   : "";
 
 const nextConfig = {
+  output: "export",
   reactStrictMode: true,
   assetPrefix: branchName,
   basePath: branchName,
